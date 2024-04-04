@@ -165,7 +165,7 @@ variable "db_parameter_group_name" {
 variable "db_parameter_group_family" {
   description = "Family identifier for the RDS database parameter group."
   type        = string
-  default     = "postgres14"
+  default     = "aurora-postgresql14"
 }
 
 variable "db_port" {
