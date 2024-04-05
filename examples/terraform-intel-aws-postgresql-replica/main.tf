@@ -1,6 +1,6 @@
 
 module "optimized-postgres-server" {
-  source = "intel/aws-aurora-postgresql/intel"
+  source      = "intel/aws-aurora-postgresql/intel"
   db_password = var.db_password
   subnet_id   = "<ENTER YOUR SUBNET ID>"
 
@@ -12,16 +12,16 @@ module "optimized-postgres-server" {
 }
 
 module "optimized-postgres-server-read-replica" {
-  source      = "intel/aws-aurora-postgresql/intel"
-  db_password = var.db_password
-  subnet_id   = "<ENTER YOUR SUBNET ID>"
-  cluster_identifier = "aurora-cluster-demo-replica" 
+  source                      = "intel/aws-aurora-postgresql/intel"
+  db_password                 = var.db_password
+  subnet_id                   = "<ENTER YOUR SUBNET ID>"
+  cluster_identifier          = "aurora-cluster-demo-replica"
   cluster_instance_identifier = "aurora-cluster-instance-demo-replica" # can't have same cluster names in same regions
 
   # Update the vpc-id below. Use the same vpc-id as the one used in the prior module.
-  vpc_id = "<YOUR-VPC-ID-HERE>"
+  vpc_id                 = "<YOUR-VPC-ID-HERE>"
   db_replicate_source_db = module.optimized-postgres-server.dbi_resource_id
-  kms_key_id          = module.optimized-postgres-server.kms_key_id
-  skip_final_snapshot = true
-  create_subnet_group = false
+  kms_key_id             = module.optimized-postgres-server.kms_key_id
+  skip_final_snapshot    = true
+  create_subnet_group    = false
 }

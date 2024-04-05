@@ -46,7 +46,7 @@ output "database_name" {
 
 output "name" {
   description = "The name of the DB cluster parameter group."
-  value       = module.optimized-aurora-server.name 
+  value       = module.optimized-aurora-server.name
 }
 
 output "family" {
@@ -56,7 +56,7 @@ output "family" {
 
 output "count" {
   description = "To make multiple instances and join them all to the same RDS Cluster."
-  value       = module.optimized-aurora-server.count 
+  value       = module.optimized-aurora-server.count
 }
 
 output "identifier" {
@@ -71,18 +71,18 @@ output "cluster_identifier" {
 
 output "cluster_identifier_default" {
   description = "If the DB instance is a member of a DB cluster, contains the name of the DB cluster that the DB instance is a member of."
-  value       = module.optimized-aurora-server.cluster_identifier 
+  value       = module.optimized-aurora-server.cluster_identifier
 }
 
 output "engine_default" {
   description = "Default engine to use."
-  value       = module.optimized-aurora-server.engine 
+  value       = module.optimized-aurora-server.engine
 }
 
 
 output "engine" {
   description = "Database engine version for AWS database instance."
-  value       = module.optimized-aurora-server.engine 
+  value       = module.optimized-aurora-server.engine
 }
 
 output "engine_version" {
@@ -102,7 +102,7 @@ output "availability_zones" {
 
 output "backup_retention_period" {
   description = "Specifies the number of days for which automatic DB snapshots are retained."
-  value       = module.optimized-aurora-server.backup_retention_period 
+  value       = module.optimized-aurora-server.backup_retention_period
 }
 
 output "preferred_backup_window" {

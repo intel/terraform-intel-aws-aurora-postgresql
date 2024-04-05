@@ -145,7 +145,7 @@ variable "db_password" {
 variable "db_subnet_group_name" {
   description = "Database subnet group name."
   type        = string
-  default     = "postgresql"  #null
+  default     = "postgresql" #null
 }
 
 variable "db_subnet_group_tag" {
@@ -546,7 +546,7 @@ variable "family" {
 }
 
 variable "cluster_instance_identifier" {
-  type = string
+  type        = string
   description = "The identifier of the cluster instances."
-  default = "aurora-cluster-instance-demo"
+  default     = "aurora-cluster-instance-demo"
 }
