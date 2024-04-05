@@ -1,6 +1,6 @@
 output "name" {
   description = "The name of the DB cluster parameter group."
-  value       = aws_rds_cluster_parameter_group.rds.name 
+  value       = aws_rds_cluster_parameter_group.rds.name
 }
 
 output "family" {
@@ -50,12 +50,12 @@ output "engine_version" {
 
 output "cluster_identifier_default" {
   description = "If the DB instance is a member of a DB cluster, contains the name of the DB cluster that the DB instance is a member of."
-  value       = aws_rds_cluster.default.cluster_identifier 
+  value       = aws_rds_cluster.default.cluster_identifier
 }
 
 output "engine_default" {
   description = "Default engine to use."
-  value       = aws_rds_cluster.default.engine 
+  value       = aws_rds_cluster.default.engine
 }
 
 output "engine_version_default" {
@@ -75,7 +75,7 @@ output "database_name" {
 
 output "backup_retention_period" {
   description = "Specifies the number of days for which automatic DB snapshots are retained."
-  value       = aws_rds_cluster.default.backup_retention_period 
+  value       = aws_rds_cluster.default.backup_retention_period
 }
 
 output "preferred_backup_window" {
