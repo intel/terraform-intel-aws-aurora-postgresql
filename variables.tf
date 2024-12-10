@@ -5,12 +5,12 @@
 # Adjust this text to match module deployment and instance recommendations.
 
 # See policies.md, we recommend  Intel Xeon 3rd Generation Scalable processors (code-named Ice Lake)
-# Memory Optimized: db.r6i.large, db.r6i.xlarge, db.r6i.2xlarge, db.r6i.4xlarge, db.r6i.8xlarge, db.r6i.12xlarge, db.r6i.16xlarge, db.r6i.24xlarge, db.r6i.32xlarge
+# Memory Optimized: db.r7i.large, db.r7i.xlarge, db.r7i.2xlarge, db.r7i.4xlarge, db.r7i.8xlarge, db.r7i.12xlarge, db.r7i.16xlarge, db.r7i.24xlarge, db.r7i.32xlarge
 
 variable "instance_class" {
   description = "The compute and memory capacity of each DB instance in the Multi-AZ DB cluster, for example db.m6g.xlarge. Not all DB instance classes are available in all AWS Regions, or for all database engines"
   type        = string
-  default     = "db.r6i.large"
+  default     = "db.r7i.large"
 }
 # all parameters dynamic
 ########################

@@ -7,7 +7,7 @@
 © Copyright 2024, Intel Corporation
 
 ## AWS Aurora PostgreSQL Module
-This code creates an Amazon Aurora instance and RDS cluster for PostgreSQL. The instance is created on an Intel Icelake instance R6i.large by default. The instance is pre-configured with parameters within the database parameter group that is optimized for Intel architecture. The goal of this module is to get you started with a database configured to run best on Intel architecture.
+This code creates an Amazon Aurora instance and RDS cluster for PostgreSQL. The instance is created on an Intel Sapphire Rapids instance R7i.large by default. The instance is pre-configured with parameters within the database parameter group that is optimized for Intel architecture. The goal of this module is to get you started with a database configured to run best on Intel architecture.
 As you configure your application's environment, choose the configurations for your infrastructure that matches your application's requirements.
 The PostgreSQL Optimizations were based off [Intel Xeon Tuning Guide](<https://www.intel.com/content/www/us/en/developer/articles/guide/open-source-database-tuning-guide-on-xeon-systems.html>)
 
@@ -17,31 +17,19 @@ The PostgreSQL Optimizations were based off [Intel Xeon Tuning Guide](<https://w
 
 <center>
 
-#### [Handle up to 1.54x more PostgreSQL queries/second using AWS m6i instances featuring 3rd Generation Intel® Xeon® Scalable Processor (Ice Lake)](https://community.intel.com/t5/Blogs/Tech-Innovation/Cloud/Comparing-Amazon-RDS-performance-between-Intel-Graviton/post/1471648?source=MessageSyndication)
+#### [Upgrade to R7i Instances and Gain the Ability to Process More Transactions and Support More Users on Apps Powered by PostgreSQL](https://www.intel.com/content/www/us/en/content-details/823409/grow-your-business-with-better-transactional-database-performance.html)
 
 <p align="center">
-  <a href="https://community.intel.com/t5/Blogs/Tech-Innovation/Cloud/Comparing-Amazon-RDS-performance-between-Intel-Graviton/post/1471648?source=MessageSyndication">
-  <img src="https://github.com/intel/terraform-intel-aws-postgresql/blob/main/images/aws-postgresql-1.png?raw=true" alt="Link" width="600"/>
+  <a href="https://www.intel.com/content/www/us/en/content-details/823409/grow-your-business-with-better-transactional-database-performance.html">
+  <img src="https://github.com/intel/terraform-intel-aws-postgresql/blob/main/images/r7ipostgresql01.png?raw=true" alt="Link" width="600"/>
   </a>
 </p>
 
-#
-
-#### [Process up to 1.43x more PostgreSQL transactions on AWS m6i instances featuring 3rd Generation Intel® Xeon® Scalable Processor (Ice Lake) vs. previous generation](https://www.intel.com/content/www/us/en/content-details/753212/support-up-to-44-more-postgresql-new-orders-per-minute-on-aws-m6i-instances-featuring-3rd-gen-intel-xeon-scalable-processors.html)
+#### [AWS EC2 M7i Instances Enabled by 4th Gen Intel® Xeon® Scalable Processors Outpaced Older Instances in Transactional Database Performance](https://www.intel.com/content/www/us/en/content-details/794444/accelerate-response-times-on-business-critical-applications.html)
 
 <p align="center">
-  <a href="https://www.intel.com/content/www/us/en/content-details/753212/support-up-to-44-more-postgresql-new-orders-per-minute-on-aws-m6i-instances-featuring-3rd-gen-intel-xeon-scalable-processors.html">
-  <img src="https://github.com/intel/terraform-intel-aws-postgresql/blob/main/images/aws-postgresql-2.png?raw=true" alt="Link" width="600"/>
-  </a>
-</p>
-
-#
-
-#### [Achieve up to 1.24x better PostgreSQL performance by choosing AWS m6i instances featuring 3rd Generation Intel® Xeon® Scalable Processor (Ice Lake)](https://www.intel.com/content/www/us/en/content-details/755507/achieve-better-postgresql-performance-by-choosing-aws-ec2-m6i-instances-featuring-3rd-gen-intel-xeon-scalable-processors.html)
-
-<p align="center">
-  <a href="https://www.intel.com/content/www/us/en/content-details/755507/achieve-better-postgresql-performance-by-choosing-aws-ec2-m6i-instances-featuring-3rd-gen-intel-xeon-scalable-processors.html">
-  <img src="https://github.com/intel/terraform-intel-aws-postgresql/blob/main/images/aws-postgresql-3.png?raw=true" alt="Link" width="600"/>
+  <a href="https://www.intel.com/content/www/us/en/content-details/794444/accelerate-response-times-on-business-critical-applications.html">
+  <img src="https://github.com/intel/terraform-intel-aws-postgresql/blob/main/images/mi7postgresql01.png?raw=true" alt="Link" width="600"/>
   </a>
 </p>
 
