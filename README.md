@@ -25,13 +25,7 @@ The PostgreSQL Optimizations were based off [Intel Xeon Tuning Guide](<https://w
   </a>
 </p>
 
-#### [AWS EC2 M7i Instances Enabled by 4th Gen Intel® Xeon® Scalable Processors Outpaced Older Instances in Transactional Database Performance](https://www.intel.com/content/www/us/en/content-details/794444/accelerate-response-times-on-business-critical-applications.html)
-
-<p align="center">
-  <a href="https://www.intel.com/content/www/us/en/content-details/794444/accelerate-response-times-on-business-critical-applications.html">
-  <img src="https://github.com/intel/terraform-intel-aws-postgresql/blob/main/images/mi7postgresql01.png?raw=true" alt="Link" width="600"/>
-  </a>
-</p>
+#
 
 </center>
 
