@@ -4,10 +4,10 @@
 </p> 
 
 # Intel® Optimized Cloud Modules for Terraform
-© Copyright 2024, Intel Corporation
+© Copyright 2025, Intel Corporation
 
 ## AWS Aurora PostgreSQL Module
-This code creates an Amazon Aurora instance and RDS cluster for PostgreSQL. The instance is created on an Intel Icelake instance R6i.large by default. The instance is pre-configured with parameters within the database parameter group that is optimized for Intel architecture. The goal of this module is to get you started with a database configured to run best on Intel architecture.
+This code creates an Amazon Aurora instance and RDS cluster for PostgreSQL. The instance is created on an Intel Sapphire Rapids instance R7i.large by default. The instance is pre-configured with parameters within the database parameter group that is optimized for Intel architecture. The goal of this module is to get you started with a database configured to run best on Intel architecture.
 As you configure your application's environment, choose the configurations for your infrastructure that matches your application's requirements.
 The PostgreSQL Optimizations were based off [Intel Xeon Tuning Guide](<https://www.intel.com/content/www/us/en/developer/articles/guide/open-source-database-tuning-guide-on-xeon-systems.html>)
 
@@ -16,7 +16,7 @@ The PostgreSQL Optimizations were based off [Intel Xeon Tuning Guide](<https://w
 ## AWS Aurora PostgreSQL Performance Data 
 
 <center>
-
+### The below marketing material reflects the 3rd Generation Intel® Xeon® Scalable Processor (Ice Lake). This module now runs on 4th Generation Intel® Xeon® Scalable Processor (Sapphire Rapids). Updated reading material will follow shortly. 
 #### [Handle up to 1.54x more PostgreSQL queries/second using AWS m6i instances featuring 3rd Generation Intel® Xeon® Scalable Processor (Ice Lake)](https://community.intel.com/t5/Blogs/Tech-Innovation/Cloud/Comparing-Amazon-RDS-performance-between-Intel-Graviton/post/1471648?source=MessageSyndication)
 
 <p align="center">

@@ -4,11 +4,11 @@
 
 # Intel® Optimized Cloud Modules for Terraform
 
-© Copyright 2024, Intel Corporation
+© Copyright 2025, Intel Corporation
 
 ## AWS Aurora PostgreSQL Module - Read Replica Example
 
-Configuration in this examples creates an Amazon Aurora instance for PostgreSQL and creates a read replica within the same region. The instance is created on an Intel Icelake instance R6i.large by default. The instance is pre-configured with parameters within the database parameter group that is optimized for Intel architecture. The goal of this module is to get you started with a database configured to run best on Intel architecture.
+Configuration in this examples creates an Amazon Aurora instance for PostgreSQL and creates a read replica within the same region. The instance is created on an Intel Sapphire Rapids instance R7i.large by default. The instance is pre-configured with parameters within the database parameter group that is optimized for Intel architecture. The goal of this module is to get you started with a database configured to run best on Intel architecture.
 
 As you configure your application's environment, choose the configurations for your infrastructure that matches your application's requirements.
 
@@ -21,6 +21,8 @@ The PostgreSQL Optimizations were based off [Intel Xeon Tunning guides](<https:/
 By default, you will only have to pass the following variables
 ```hcl
 db_password
+subnet_id
+vpc_id
 ```
 
 variables.tf

@@ -4,11 +4,11 @@ terraform-intel-aws-postgresql  <img src="https://github.com/intel/terraform-int
 
 # Intel® Optimized Cloud Modules for Terraform
 
-© Copyright 2024, Intel Corporation
+© Copyright 2025, Intel Corporation
 
 ## AWS Aurora PostgreSQL Module - Expanded Parameters Example
 
-Configuration in this example creates an Amazon Aurora instance for PostgreSQL and optimizes the database parameter innodb_open_files. The instance is created on an Intel Icelake instance R6i.large by default. The instance uses a database parameter group that is optimized for Intel architecture. The goal of this module is to get you started with a Aurora database configured to run best on Intel architecture.
+Configuration in this example creates an Amazon Aurora instance for PostgreSQL and optimizes the database parameter innodb_open_files. The instance is created on an Intel Sapphire Rapids instance R7i.large by default. The instance uses a database parameter group that is optimized for Intel architecture. The goal of this module is to get you started with a Aurora database configured to run best on Intel architecture.
 
 As you configure your application's environment, choose the configurations for your infrastructure that matches your application's requirements.
 Double check [Aurora PostgreSQL Configuration Parameters](<https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/AuroraPostgreSQL.Reference.ParameterGroups.html>).
